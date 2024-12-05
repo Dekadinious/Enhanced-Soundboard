@@ -1,4 +1,4 @@
-# Python Soundboard
+# Enhanced Soundboard developed in Python
 
 A simple and flexible soundboard application that lets you bind sound files to keyboard keys. Perfect for streamers, presenters, or anyone needing quick access to sound effects.
 
