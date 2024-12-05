@@ -2,6 +2,8 @@
 
 A simple and flexible soundboard application that lets you bind sound files to keyboard keys. Perfect for streamers, presenters, or anyone needing quick access to sound effects.
 
+![image](https://github.com/user-attachments/assets/09a770ab-7624-48a0-9a43-c94c04d2608a)
+
 ## Features
 
 - **Key Binding**: Bind any sound file (MP3/WAV) to almost any keyboard key
