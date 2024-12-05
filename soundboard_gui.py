@@ -362,6 +362,10 @@ class SoundBoardGUI:
     def delete_binding(self, key_code):
         """Delete a key binding"""
         if key_code in self.key_mappings:
+            # Ensure mixer is initialized if needed
+            if not self.soundboard and not pygame.mixer.get_init():
+                pygame.mixer.init()
+                
             # Stop any playing sound for this binding
             if self.soundboard:
                 self.soundboard.stop_all_sounds()
@@ -377,7 +381,7 @@ class SoundBoardGUI:
                 
             self.save_config()
             self.update_bindings_display()
-            
+                    
     def toggle_soundboard(self):
         """Start or stop the soundboard"""
         if self.soundboard is None:
