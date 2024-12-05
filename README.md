@@ -1,6 +1,6 @@
 # Enhanced Soundboard developed in Python
 
-A simple and flexible soundboard application that lets you bind sound files to keyboard keys. Perfect for streamers, presenters, or anyone needing quick access to sound effects.
+This is a completely free, simple, and flexible open-source soundboard application that lets you bind sound files to keyboard keys. It's perfect for streamers, presenters, or anyone needing quick access to sound effects. It has a CC0 license, so you can use it as you please.
 
 ![image](https://github.com/user-attachments/assets/09a770ab-7624-48a0-9a43-c94c04d2608a)
 
